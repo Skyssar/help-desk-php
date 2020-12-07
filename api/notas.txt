@@ -1,0 +1,56 @@
+API MESA DE AYUDA CRUD JQUERY AJAX PHP BOOTSTRAP 
+ 
+ MADE BY:   Yasar Cure González
+            Marco Aguirre
+            DESARROLLO WEB 27/09/2020
+            UNIVERSIDAD DE CÓRDOBA
+
+DATABASE: docs/tickets.sql
+DOCUMENTATION: docs/Documentacion.pdf
+LAST_UPDATE: 26/09/2020 11:25 pm <--
+
+El presente código hace parte de un par de proyectos que le hemos enviado. 
+Este está terminado, pero el diseño back-end de la api, no es exactamente igual al que usted había ordenado.
+No es excusa, pero creamos este código hasta el día sábado, y luego de ver el video de la explicación nos dimos cuenta de que habían cosas que no eran como las habíamos diseñado, y entre el tiempo y los demás trabajos no pudimos arreglarlo a como debía ser.
+
+Enviamos este par de proyectos para dar evidencia de que aunque no lo hicimos bien, sí le hemos trabajado e intentado a esta hermosa materia de desarrollo web, aún hay conceptos que debemos entender mejor y con los errores aprendemos!
+
+Pedimos disculpas y se promete mejorar para la próxima.
+
+Los archivos php en la carpeta raíz corresponden al diseño de las interfaces que maneja la API, estos consisten en un documento HTML, con código PHP y scripts.
+
+Cabe destacar que no se realizaron archivos php para delete o read, ya que estos son métodos reutilizables incluidos en php/modelo.php y que no necesitan una interfaz propia.
+
+La carpeta api contiene la conexión a la base de datos (db.php), y los elementos HTML del header y footer de las interfaces de nuestra API.
+La carpeta css contiene los elementos del framework Bootstrap necesarios para el diseño del front-end.
+La carpeta js contiene los scripts de Bootstrap, el archivo script para el uso de JQuery y el archivo ticket.js, que es donde realizamos los métodos del CRUD con AJAX.
+La carpeta php contiene: 
+modelo.php donde se hacen los métodos para las consultas 
+controlador.php que enlaza dichos métodos con las peticiones AJAX del archivo ticket.js
+____________________________________________________
+<notas>
+Notas: Si ve alguna inconsistencia en el presente código o en el diseño del mismo, anotarla en este espacio, y modificar la fecha de actualización (LAST_UPDATE). Estamos para aprender!
+
+El front-end del index (por ejemplo) es muy simple considerando la poca experiencia que tengo con estas herramientas, y el poco tiempo que dejan las demás asignaturas (DW es la más interesante). Siempre hay una primera vez xD 
+El código puede no estar perfecto, pero es producto de mucho esfuerzo de programadores principiantes. [¡Mejoraremos para la próxima, prometido!]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<notas>
+____________________________________________________
+
+
+notas.txt COPYRIGHT BY YASARJOSÉ
+EMAIL: YCURE10@GMAIL.COM
